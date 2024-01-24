@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Cormorant:wght@300&family=Kanit:wght@200;400&family=Montserrat+Alternates:ital,wght@0,300;1,400&family=Pacifico&family=Poppins:wght@200&family=Prompt:wght@300;600;700&family=Roboto:wght@100;300;400;500&display=swap');
+
+#createPage {
+    margin-left: 30px;
+}
+
+#nameText {
+    position: absolute;
+    left: 170px;
+}
+
+.apply {
+    color: #000;
+    font-family: Montserrat+Alternates, Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1.8px;
+    margin-top: 6%;
+}
+
+.applyWholesale {
+    margin-left: 30px;
+}
+
+.advantage {
+    color: #000;
+    font-family: Montserrat+Alternates, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 1.3px;
+}
+
+.express {
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    color: #000;
+    font-family: Montserrat+Alternates, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 1.3px;
+}
+
+.express2 {
+    display: none;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    color: #000;
+    font-family: Montserrat+Alternates, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 1.3px;
+}
+
+.monitor2 {
+    margin-left: 10px;
+}
+
+input:focus {
+    border-style: none;
+    outline: none;
+
+}
+
+.firstText {
+    border-style: none;
+    color: black;
+
+}
+
+.hr1 {
+    width: 575px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+
+.hr2 {
+    width: 1180px;
+    height: 1px;
+    flex-shrink: 0;
+
+    background: #D9D9D9;
+}
+
+.dashedLine1 {
+    width: 1px;
+    height: 50px;
+    margin-left: 13px;
+    margin-top: 5px;
+    border: 1px dashed #000;
+}
+
+.dashedLine2 {
+    width: 1px;
+    height: 53px;
+    margin-left: 13px;
+    margin-top: 5px;
+    border: 1px dashed #000;
+}
+
+.dashedLine3 {
+    width: 1px;
+    height: 68px;
+    margin-left: 13px;
+    margin-top: 5px;
+    border: 1px dashed #000;
+}
+
+.dashedLine4 {
+    width: 1px;
+    height: 50px;
+    margin-left: 13px;
+    margin-top: 5px;
+    border: 1px dashed #000;
+}
+
+.dashedLine5 {
+    width: 1px;
+    height: 83px;
+    margin-left: 13px;
+    margin-top: 5px;
+    border: 1px dashed #000;
+}
+
+.dashedLine6 {
+    width: 1px;
+    height: 115px;
+    margin-left: 13px;
+    margin-top: 5px;
+    border: 1px dashed #000;
+}
+
+.contactImg {
+    margin-top: 10px;
+    width: 30px;
+    height: 35px;
+
+}
+
+#name2 {
+    display: none;
+}
+
+.firstName {
+    display: flex;
+    margin-top: 10px !important;
+}
+
+.email {
+    display: flex;
+    margin-top: 50px !important;
+}
+
+.store {
+    display: flex;
+    margin-top: 50px !important;
+}
+
+.describe {
+
+    margin-top: 70px !important;
+}
+
+.picture {
+
+    margin-top: 50px !important;
+}
+
+.localAds {
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 90%;
+    padding: 5px 0px 5px 7px;
+}
+
+input[type='checkbox'] {
+    accent-color: black;
+}
+
+
+.localText {
+    color: #474747;
+    font-family: Montserrat+Alternates, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ellipse {
+    margin-right: 8px;
+    color: gray;
+    width: 8px;
+    height: 8px;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: gray;
+}
+
+.byRedo {
+    color: gray;
+    margin-top: 15px;
+}
+
+#customerSell {
+    margin-top: 80px;
+    color: #000;
+    font-family: Montserrat+Alternates, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+
+}
+
+#chooseBrand {
+    margin-top: 30px;
+    color: #000;
+    font-family: Montserrat+Alternates, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.byRedoText {
+    color: #474747;
+    font-family: Montserrat+Alternates, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.checkbox {
+    margin-top: 10px;
+
+}
+
+.applyText {
+    color: #403A39;
+    font-family: Arial;
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.12px;
+}
+
+.lastText {
+    margin: 50px 0 40px 0;
+}
+
+.applyBtn {
+    width: 97%;
+    margin: 10px 0 20px 0;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat+Alternates, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+    #createPage {
+        margin-left: 67px;
+    }
+
+    .applyWholesale {
+        margin-left: 65px;
+    }
+
+    #nameText {
+        position: absolute;
+        left: 168px;
+    }
+
+    .hr2 {
+        width: 1105px;
+        
+    }
+
+    .hr1 {
+        width: 530px;
+    }
+
+}
+
+@media only screen and (max-width: 1439px) and (min-width: 1024px) {
+    #nameText {
+        position: absolute;
+        left: 120px;
+    }
+
+    #createPage {
+        margin-left: 50px;
+    }
+
+    .hr1 {
+        width: 373px;
+
+    }
+
+    .hr2 {
+        width: 775px;
+
+    }
+}
+
+@media only screen and (max-width: 1022px) and (min-width: 768px) {
+    #nameText {
+        position: absolute;
+        left: 100px;
+    }
+
+    #createPage {
+        margin-left: 40px;
+    }
+
+    .hr1 {
+        width: 265px;
+
+    }
+
+    .hr2 {
+        width: 570px;
+
+    }
+}
+
+@media only screen and (max-width: 766px) and (min-width: 425px) {
+
+    #name1 {
+        display: none;
+    }
+
+    #name2 {
+        display: block;
+    }
+
+    #nameText {
+        position: absolute;
+        left: 50px;
+    }
+
+    #createPage {
+        margin-left: 20px;
+    }
+
+    .hr1 {
+        width: 295px;
+
+    }
+
+    .hr2 {
+        width: 295px;
+
+    }
+
+    #nameContent2 {
+        margin-top: 20px;
+    }
+
+    .describe {
+        margin-top: 20px;
+    }
+
+    .picture {
+        margin-top: 20px;
+    }
+
+    #customerSell {
+        margin-top: 52px;
+
+    }
+
+    .express {
+        display: none;
+    }
+
+    .express2 {
+        display: block;
+    }
+
+    .dashedLine1 {
+
+        height: 95px;
+
+    }
+
+    .dashedLine2 {
+
+        height: 95px;
+
+    }
+
+    .dashedLine3 {
+
+        height: 145px;
+
+    }
+
+    .dashedLine4 {
+
+        height: 50px;
+
+    }
+
+    .dashedLine5 {
+
+        height: 55px;
+
+    }
+
+    .dashedLine6 {
+
+        height: 340px;
+
+    }
+}
+
+@media only screen and (max-width: 423px) and (min-width: 375px) {
+    #name1 {
+        display: none;
+    }
+
+    #name2 {
+        display: block;
+    }
+
+    #nameText {
+        position: absolute;
+        left: 50px;
+    }
+
+    #createPage {
+        margin-left: 20px;
+    }
+
+    .hr1 {
+        width: 250px;
+
+    }
+
+    .hr2 {
+        width: 250px;
+
+    }
+
+    #nameContent2 {
+        margin-top: 20px;
+    }
+
+    .describe {
+        margin-top: 20px;
+    }
+
+    .picture {
+        margin-top: 20px;
+    }
+
+    #customerSell {
+        margin-top: 52px;
+
+    }
+
+    .express {
+        display: none;
+    }
+
+    .express2 {
+        display: block;
+    }
+
+    .dashedLine1 {
+
+        height: 95px;
+
+    }
+
+    .dashedLine2 {
+
+        height: 95px;
+
+    }
+
+    .dashedLine3 {
+
+        height: 145px;
+
+    }
+
+    .dashedLine4 {
+
+        height: 50px;
+
+    }
+
+    .dashedLine5 {
+
+        height: 55px;
+
+    }
+
+    .dashedLine6 {
+
+        height: 340px;
+
+    }
+}
+
+
+@media only screen and (max-width: 373px) and (min-width: 320px) {
+    #name1 {
+        display: none;
+    }
+
+    #name2 {
+        display: block;
+    }
+
+    #nameText {
+        position: absolute;
+        left: 50px;
+    }
+
+    #createPage {
+        margin-left: 20px;
+    }
+
+    .hr1 {
+        width: 200px;
+
+    }
+
+    .hr2 {
+        width: 200px;
+
+    }
+
+    #nameContent2 {
+        margin-top: 20px;
+    }
+
+    .describe {
+        margin-top: 20px;
+    }
+
+    .picture {
+        margin-top: 20px;
+    }
+
+    #customerSell {
+        margin-top: 52px;
+
+    }
+
+    .express {
+        display: none;
+    }
+
+    .express2 {
+        display: block;
+    }
+
+    .dashedLine1 {
+
+        height: 95px;
+
+    }
+
+    .dashedLine2 {
+
+        height: 95px;
+
+    }
+
+    .dashedLine3 {
+
+        height: 145px;
+
+    }
+
+    .dashedLine4 {
+
+        height: 50px;
+
+    }
+
+    .dashedLine5 {
+
+        height: 55px;
+
+    }
+
+    .dashedLine6 {
+
+        height: 340px;
+
+    }
+}

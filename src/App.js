@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CreateAccount from "./Components/Account/CreateAccount";
+import Retailer from "./Components/Retailer/Retailer";
+import BrandPopPup from "./Components/Brand_Popup/BrandPopPup";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={< CreateAccount/>}>  </Route>
+        <Route path="/retailer" element={< Retailer/>}>  </Route>
+        <Route path="/brand" element={< BrandPopPup/>}>  </Route>
+      
+      </Routes>
+    </BrowserRouter> 
     </div>
   );
 }
